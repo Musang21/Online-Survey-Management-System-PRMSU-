@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Survey Management System</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="Actual-Survey.css">
+</head>
+<body>
+  <nav class="nav-style">
+    
+    <div class="logo">
+      <img class="logo" src="Clickerslogo.png">
+    </div>
+    <ul id="openlink">
+         <li><i class="ri-home-5-line badge"></i><a href="Home.html">Home</a></li>
+           <div class="border2"></div>
+         <li><i class="ri-question-line badge"></i><a href="">About</a></li>
+           <div class="border2"></div>
+         <li><i class="ri-shopping-cart-2-line badge"></i><a href="">Services</a></li>
+           <div class="border2"></div>
+         <li><i class="ri-group-line badge"></i><a href="">Team</a></li>
+           <div class="border2"></div>
+    </ul>
+    
+         <div class="survey-menu" onclick="openmenu()">
+          <div class="span" onclick="baropen(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar-1"></div>
+          </div>
+         </div>
+    
+  </nav>
+  
+  <div class="option">
+  <form>
+    <div class="high-text">Library survey</div>
+    <span>Thank you for your time! This survey is part of our study to improve the services for students in our school. We appreciate your honest answers to help us create more effective solutions. Thank you very much!</span>
+    <p><b>1. Availability of books and services.</b></p>
+    <div>
+        <label><input type="radio" name="question1" value="Very Satisfied"> Very Satisfied</label>
+        <br>
+        <label><input type="radio" name="question1" value="Satisfied"> Satisfied</label>
+        <br>
+        <label><input type="radio" name="question1" value="Neutral" required> Neutral</label>
+        <br>
+        <label><input type="radio" name="question1" value="Dissatisfied"> Dissatisfied</label>
+        <br>
+        <label><input type="radio" name="question1" value="Very Dissatisfied"> Very Dissatisfied</label>
+    </div>
+    <p><b>2. Organization of library materials.</b></p>
+        <label><input type="radio" name="question2" value="Very Satisfied" required> Very Satisfied</label>
+        <br>
+        <label><input type="radio" name="question2" value="Satisfied"> Satisfied</label>
+        <br>
+        <label><input type="radio" name="question2" value="Neutral"> Neutral</label>
+        <br>
+        <label><input type="radio" name="question2" value="Dissatisfied"> Dissatisfied</label>
+        <br>
+        <label><input type="radio" name="question2" value="Very Dissatisfied"> Very Dissatisfied</label>
+    <p><b>3. Helpfulness and behavior of librarians.</b></p>
+        <label><input type="radio" name="question3" value="Very Satisfied" required> Very Satisfied</label>
+        <br>
+        <label><input type="radio" name="question3" value="Satisfied"> Satisfied</label>
+        <br>
+        <label><input type="radio" name="question3" value="Neutral"> Neutral</label>
+        <br>
+        <label><input type="radio" name="question3" value="Dissatisfied"> Dissatisfied</label>
+        <br>
+        <label><input type="radio" name="question3" value="Very Dissatisfied"> Very Dissatisfied</label>
+    <p><b>4. Adequacy of library facilities.</b></p>
+        <label><input type="radio" name="question4" value="Very Satisfied" required> Very Satisfied</label>
+        <br>
+        <label><input type="radio" name="question4" value="Satisfied"> Satisfied</label>
+        <br>
+        <label><input type="radio" name="question4" value="Neutral"> Neutral</label>
+        <br>
+        <label><input type="radio" name="question4" value="Dissatisfied"> Dissatisfied</label>
+        <br>
+        <label><input type="radio" name="question4" value="Very Dissatisfied"> Very Dissatisfied</label>
+    <p><b>5. Internet access and online system.</b></p>
+        <label><input type="radio" name="question5" value="Very Satisfied" required> Very Satisfied</label>
+        <br>
+        <label><input type="radio" name="question5" value="Satisfied"> Satisfied</label>
+        <br>
+        <label><input type="radio" name="question5" value="Neutral"> Neutral</label>
+        <br>
+        <label><input type="radio" name="question5" value="Dissatisfied"> Dissatisfied</label>
+        <br>
+        <label><input type="radio" name="question5" value="Very Dissatisfied"> Very Dissatisfied</label>
+    <div class="button-submit">
+    <button class="button" type="submit">SUBMIT</button>
+    </div>
+    </form>
+  </div>
+  
+  <script>
+      
+  let openlink = document.getElementById("openlink")
+        openlink.style.maxHeight = "0px";
+  </script>
+</body>
+</html>

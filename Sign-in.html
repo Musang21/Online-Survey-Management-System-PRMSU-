@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Survey Management System</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="Sign-up.css">
+</head>
+<body>
+   <form action="dashboard.html">
+        <div class="clickers-logo">
+          <a href="Home.html"><img src="Clickerslogo.png" class="logo"></a>
+        </div>
+  
+    <div class="high-light-text">Log in</div>
+    <p>You don't have an account? <a class="link-form" href="Sign-up.html">Sign up</a></p>
+    <label class="label-text" for="username">Username</label>
+    <input class="input-text" type="text" placeholder="Username" id="username" name="username" required>
+    <label class="label-text" for="password">Password</label>
+    <input class="input-text" tyle="password" placeholder="Password" id="password" name="password" required>
+    <button class="submit-button" type="submit">Log in</button>
+  
+     <div class="container">
+       <div class="popup" id="popup">
+         <img class="warning-popup" src="warning.png">
+         <div class="warning-text">Thank You!</div>
+         <p>This system is not 100% done, your account is <b>NOT</b> totally recorded. You are redirecting to dashboard.</p>
+         <button class="close-button" onclick="closebutton()">I understand</button>
+       </div>
+     </div>
+  
+  <div class="border-layout">
+    <div class="border-form"></div>or<div class="border-form"></div>
+  </div>
+  
+  <div class="link-signup"><i class="ri-google-fill"></i><p>Sign in with Google</p></div>
+  <div class="link-signup"><i class="ri-github-fill"></i><p>Sign in with Github</p></div>
+   </form>
+  <script src="script.js"></script>
+</body>
+</html>

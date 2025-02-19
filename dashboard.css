@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@media (max-width:600px)
+{
+  body
+  {
+    font-size:14px;
+    height:100%;
+    font-family:'Poppins', sans-serif;
+    background-color:#fff;
+  }
+  .warning-popup2
+  {
+    width:80px;
+  }
+  .warning-text
+  {
+    font-weight:600;
+    font-size:17px;
+  }
+  .container
+  {
+    justify-content:center;
+    text-align:center;
+    display:flex;
+  }
+  .popup2
+  {
+    width:300px;
+    border:1px solid #a6acaf;
+    border-radius:5px;
+    padding:20px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%,-50%)scale(0.1);
+    background-color:#fff;
+    transition:transform 0.4s, top 0.4s;
+    visibility:hidden;
+  }
+  .open-warning2
+  {
+    visibility:visible;
+    transform:translate(-50%,-50%)scale(1);
+    top:50%;
+  }
+  
+  .close-button
+  {
+    width:100%;
+    padding:13px;
+    background-color:#29bf4e;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    font-weight:500;
+    margin:10px 0 10px 0;
+    border-bottom:3px solid #a6acaf;
+    cursor:none;
+  }
+  .close-button:active
+  {
+    margin-top:15px;
+    border-bottom:none;
+    transition:all ease 0.2s;
+  }
+}
+
+@media (min-width:601px)
+{
+  body
+  {
+    font-size:14px;
+    height:100%;
+    font-family:'Poppins', sans-serif;
+    background-color:#fff;
+  }
+  .warning-popup2
+  {
+    width:80px;
+  }
+  .warning-text
+  {
+    font-weight:600;
+    font-size:17px;
+  }
+  .container
+  {
+    justify-content:center;
+    text-align:center;
+    display:flex;
+  }
+  .popup2
+  {
+    width:300px;
+    border:1px solid #a6acaf;
+    border-radius:5px;
+    padding:20px;
+    position:absolute;
+    top:0;
+    left:50%;
+    transform:translate(-50%,-50%)scale(0.1);
+    background-color:#fff;
+    transition:transform 0.4s, top 0.4s;
+    visibility:hidden;
+  }
+  .open-warning2
+  {
+    visibility:visible;
+    transform:translate(-50%,-50%)scale(1);
+    top:50%;
+  }
+  
+  .close-button
+  {
+    width:100%;
+    padding:13px;
+    background-color:#29bf4e;
+    border:none;
+    border-radius:5px;
+    color:#fff;
+    font-weight:500;
+    margin:10px 0 10px 0;
+    border-bottom:3px solid #a6acaf;
+    cursor:none;
+  }
+  .close-button:active
+  {
+    margin-top:15px;
+    border-bottom:none;
+    transition:all ease 0.2s;
+  }
+}

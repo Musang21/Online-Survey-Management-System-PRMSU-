@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Survey Management System</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img class="logo" src="Clickerslogo.png">
+    </div>
+    <ul id="openlink">
+      <div class="link">
+      <li><i class="ri-home-5-line"></i><a href="Sign-in.html">Log in</a></li>
+        <div class="border"></div>
+      <li><i class="ri-question-line"></i><a href="about.html">About</a></li>
+        <div class="border"></div>
+      <li><i class="ri-shopping-cart-2-line"></i><a href="services.html">Services</a></li>
+        <div class="border"></div>
+      <li><i class="ri-group-line"></i><a href="team.html">Team</a></li>
+        <div class="border"></div>
+      </div>
+    </ul>
+    
+    <span class="top-button">
+      
+    <a href="Survey.html"><button class="take-survey">Feedback</button></a>
+   
+    <div onclick="openmenu()">
+      <div class="span" onclick="baropen(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar-1"></div>
+      </div>
+    </span>
+  </nav>
+  <div class="title">
+      Welcome to the PRMSU Online Survey Management System
+    </div>
+    <p class="text">
+      This flatform simplifies the creation, distribution, and analysis of the surveys for President Ramon Magsaysay State Univerity (PRMSU) students and faculty, ensuring efficient and accurate data collecttion.
+    </p>
+    <a href="Sign-up.html"><button class="get-started">Create Account</button>
+    </a>
+    <div class="image">
+      <img src="Mobile-pic.png" id="mobimage" class="image" alt="Home image">
+      <img src="Desktop.png" id="deskimage"
+           class="image" alt="Home image">
+    </div>
+  <script>
+  
+let openlink = document.getElementById("openlink")
+        openlink.style.maxHeight = "0px";
+        
+  </script>
+</body>
+</html>

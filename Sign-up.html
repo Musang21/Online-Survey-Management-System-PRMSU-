@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Survey Management System</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="Sign-up.css">
+</head>
+<body>
+   <form action="dashboard.html" method="POST">
+        <div class="clickers-logo">
+          <a href="Home.html"><img src="Clickerslogo.png" class="logo"></a>
+        </div>
+  
+    <div class="high-light-text">Create an account</div>
+    <p>Already have an account? <a class="link-form" href="Sign-in.html">Log in</a></p>
+    <label class="label-text" for="username">Username</label>
+    <input class="input-text" type="text" placeholder="Username" id="username" name="username" required>
+    <label class="label-text" for="email">Email address</label>
+    <input class="input-text" type="email" placeholder="Email address" id="email" name="email" oninvalid="this.setCustomValidity('Please follow the format (@gmail.com)')" oninput="this.setCustomValidity('')" title="Please follow the format (@gmail.com)" required>
+    <label class="label-text" for="password">Password</label>
+    <input class="input-text" tyle="password" placeholder="Password" id="password" name="password" pattern="(?=.*[+×÷=!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])(.{8,})" oninvalid="this.setCustomValidity('Must at least one lowercase and one uppercase and a number with special characters(+×÷=!@#$%^&*) and 8 or more characters')" oninput="this.setCustomValidity('')" title="Must at least one lowercase and one uppercase and a number with special characters(+×÷=!@#$%^&*) and 8 or more characters" required>
+    <button class="submit-button" onclick="openbutton()" type="submit">Signup</button>
+     
+     <div class="container">
+       <div class="popup" id="popup">
+         <img class="warning-popup" src="warning.png">
+         <div class="warning-text">Thank You!</div>
+         <p>This system is not 100% done, your account is <b>NOT</b> totally recorded. You are redirecting to dashboard.</p>
+         <button class="close-button" onclick="closebutton()">I understand</button>
+       </div>
+     </div>
+  
+  <div class="border-layout">
+    <div class="border-form"></div>or<div class="border-form"></div>
+  </div>
+  
+  <div class="link-signup"><i class="ri-google-fill"></i><p>Sign up with Google</p></div>
+  <div class="link-signup"><i class="ri-github-fill"></i><p>Sign up with Github</p></div>
+   </form>
+  <script src="script.js"></script>
+</body>
+</html>

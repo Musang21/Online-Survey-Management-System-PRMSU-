@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Survey Management System</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="Survey.css">
+</head>
+<body>
+  <nav class="nav-style">
+    
+    <div class="logo">
+      <img class="logo" src="Clickerslogo.png">
+    </div>
+    <ul id="openlink">
+         <li><i class="ri-home-5-line badge"></i><a href="index.html">Home</a></li>
+           <div class="border2"></div>
+         <li><i class="ri-question-line badge"></i><a href="about.html">About</a></li>
+           <div class="border2"></div>
+         <li><i class="ri-shopping-cart-2-line badge"></i><a href="services.html">Services</a></li>
+           <div class="border2"></div>
+         <li><i class="ri-group-line badge"></i><a href="team.html">Team</a></li>
+           <div class="border2"></div>
+    </ul>
+    
+         <div class="survey-menu" onclick="openmenu()">
+          <div class="span" onclick="baropen(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar-1"></div>
+          </div>
+         </div>
+    
+  </nav>
+    
+    
+ <div class="align-survey">
+  
+    <div class="profile">
+      Which survey would you like to take?
+    </div>
+  
+    <p class="text-sample"> Please select the survey would you like, to proceed with the survey and help us improve our services tailored to your needs. Your input is valuable in shaping the future of our academic community, whether you're a student, librarian, or registrar. Together, we can create a better experience for everyone.</p>
+    <div class="border-1"></div>
+  
+    <div class="align-pic">
+      
+      <a class="link-profile" href="Student-Survey.html" target="_blank">
+      <div class="profile-pic">
+        <p class="text-pro">Student</p>
+        <img src="Student.png" class="survey-pic" alt="student picture">
+      </div>
+      </a>
+      
+      <a class="link-profile" href="Library-Survey.html" target="_blank">
+      <div class="profile-pic">
+        <p class="text-pro">Library</p>
+        <img src="Library.png" class="survey-pic" alt="Librarian">
+      </div>
+      </a>
+      
+      <a class="link-profile" href="Registrar-Survey.html" target="_blank">
+      <div class="profile-pic">
+        <p class="text-pro">Registrar</p>
+        <img src="Registrar.png" class="survey-pic" alt="Registrar">
+      </div>
+      </a>
+      
+    </div>
+ </div>
+  
+  
+  
+  <script>
+      
+  let openlink = document.getElementById("openlink")
+        openlink.style.maxHeight = "0px";
+  </script>
+</body>
+</html>
