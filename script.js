@@ -13,22 +13,15 @@ function openmenu(){
             }
         }
 
-let popup = document.getElementById("popup");
-
-
-  function closebutton(){
-  popup.classList.add("open-warning");
-  }
-
-let popup2 = document.getElementById("popup2");
+let popupthe = document.getElementById("popup");
 
   window.onload = function() {
     setTimeout(function() {
-        let popup2 = document.getElementById("popup2");
-        popup2.classList.add("open-warning2");
+        let popupthe = document.getElementById("popup");
+        popupthe.classList.add("open-warning");
     }, 1000);
 };
 
   function closebutton2(){
-  popup2.classList.remove("open-warning2");
+  popupthe.classList.remove("open-warning");
   }
