@@ -37,7 +37,7 @@
     transition:transform 0.4s, top 0.4s;
     visibility:hidden;
   }
-  .open-warning2
+  .open-warning
   {
     visibility:visible;
     transform:translate(-50%,-50%)scale(1);
@@ -103,7 +103,7 @@
     transition:transform 0.4s, top 0.4s;
     visibility:hidden;
   }
-  .open-warning2
+  .open-warning
   {
     visibility:visible;
     transform:translate(-50%,-50%)scale(1);
