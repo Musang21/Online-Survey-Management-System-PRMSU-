@@ -13,6 +13,8 @@ function openmenu(){
             }
         }
 
+
+/* popup warning */
 let popupthe = document.getElementById("popup");
 
   window.onload = function() {
@@ -22,6 +24,6 @@ let popupthe = document.getElementById("popup");
     }, 1000);
 };
 
-  function closebutton2(){
+  function closebutton(){
   popupthe.classList.remove("open-warning");
   }
